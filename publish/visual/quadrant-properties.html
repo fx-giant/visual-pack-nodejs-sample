@@ -1,0 +1,35 @@
+<div class="quadrant-properties">
+    <div class="quadrant-properties__databind">
+        <div class="quadrant-properties__title" data-bind="textMessage: 'qpDataBinding'"></div>
+        <quadrant-control params="controlType: 'connectionSource',
+                                quadrantViewModel: quadrantViewModel">
+        </quadrant-control>
+        <quadrant-control params="controlType: 'topBottom',
+                                      quadrantComposer: quadrantComposer">
+        </quadrant-control>
+        <quadrant-control params="controlType: 'single-dimension-quadrant-control',
+                                  labelKey: 'Title',
+                                  parameterKey: 'titlePath', 
+                                  controlType: 'simpleSingleBinding', 
+                                  bindingType: 'dimension', 
+                                  quadrantViewModel: quadrantViewModel">
+        </quadrant-control>
+         <quadrant-control params="controlType: 'single-dimension-quadrant-control',
+                                  labelKey: 'Description',
+                                  parameterKey: 'descriptionPath', 
+                                  controlType: 'simpleSingleBinding', 
+                                  bindingType: 'dimension', 
+                                  quadrantViewModel: quadrantViewModel">
+        </quadrant-control>
+         <quadrant-control params="controlType: 'single-dimension-quadrant-control',
+                                  labelKey: 'GoogleMapUrl',
+                                  parameterKey: 'googleMapUrlPath', 
+                                  controlType: 'simpleSingleBinding', 
+                                  bindingType: 'dimension', 
+                                  quadrantViewModel: quadrantViewModel">
+        </quadrant-control>
+        
+        
+        
+    </div>
+</div>

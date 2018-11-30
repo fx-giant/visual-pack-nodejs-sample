@@ -1,0 +1,49 @@
+.merchant-location-widget {
+
+  box-sizing: border-box;
+  overflow: auto;
+  font-family: "Proxima Nova Soft", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  padding: 4px;
+
+  .item-listing {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "title googleMapUrl" "description googleMapUrl";
+    grid-column-gap: 24px;
+    grid-row-gap: 8px;
+    height: 150px;
+    width: 100%;
+    padding: 20px 12px;
+    border-bottom: 1px solid rgba(55, 58, 60, 0.3);
+  }
+
+  .item__title {
+    grid-area: title;
+    font-size: 16px;
+    color: rgb(55, 58, 60);
+    align-self: end;
+  }
+  .item__description {
+    grid-area: description;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(137, 137, 152);
+  }
+  .item__googleMapUrl {
+    grid-area: googleMapUrl;
+    align-self: center;
+    > a {
+      color: rgb(119, 85, 204);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
