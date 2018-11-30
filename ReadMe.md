@@ -21,13 +21,13 @@
 ## Development Files
 
 | File        | Description            |
-| ------------- |:-------------:| -----:|
+| ------------- |-------------|
 | publish/visual/icon.png | icon file of custom visual |
 | publish/visual/quadrant-properties.html | properties html for quadrant configuration      |  
 | publish/visual/quadrant-properties.js | javascript for properties html. parse by giant during configuration stage
 | src/app.js | main rendering of custom visual |
 | src/app.scss | main styling of custom visual |
-| program.js | Development only files. Dump any debugging configuration here for testing purpose
+| program.js | Development only files. Dump any debugging configuration here for testing purpose |
 
 
 ## How to Run
