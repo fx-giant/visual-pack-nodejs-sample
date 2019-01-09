@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    "myCustomVisual": './src/app.js',
+    "merchantLocationWidget": './src/app.js',
     "program": './src/program.js'
   },
   output: {
@@ -37,7 +37,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin('dist', {}),
     new MiniCssExtractPlugin({
-      filename: 'myCustomVisual.[contenthash].css'
+      filename: 'merchantLocationWidget.[contenthash].css'
     }),
     new HtmlWebpackPlugin({      
       template: './src/index.html',
