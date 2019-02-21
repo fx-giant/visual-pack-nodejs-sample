@@ -33,7 +33,7 @@ After logging into GIANT, open web debugger console (press **F12**) and switch t
 | publish/visual/quadrant-properties.js | javascript for properties HTML, parse by giant during configuration stage
 | src/app.js | main rendering of custom visual |
 | src/app.scss | main styling of custom visual |
-| program.js | Development only files. Dump any debugging configuration here for testing purpose |
+| src/program.js | Development only files. Dump any debugging configuration here for testing purpose |
 
 See [Visual pack documentation](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual-pack.md#quadrant-properties-html-js) for more information about quadrant properties HTML and javascript.
 
