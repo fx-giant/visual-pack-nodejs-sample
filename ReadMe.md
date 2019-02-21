@@ -14,7 +14,7 @@
 
     - package.json (name, desciption, author)
     - webpack.config.js ('merchantLocationWidget' 2 places to you visual name)
-    - program.js ('merchantLocationWidget' to you visual name)
+    - src/program.js ('merchantLocationWidget' to you visual name)
     - publish/visual/quadrant-properties.js ('merchantLocationWidget' to you visual name)
     - publish/config.js (install.visualConfig)
     - publish/config.js (install.authcookie **GIANT WEB ACCESS COOKIE**)
