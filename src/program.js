@@ -1,4 +1,4 @@
-window["merchantLocationWidget"].default.render({
+window["myCustomVisual"].default.render({
 
   htmlJContent() {
 

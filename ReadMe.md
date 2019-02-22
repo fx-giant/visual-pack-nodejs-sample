@@ -13,12 +13,12 @@
  3. Update the below files to your repective values
 
     - package.json (name, desciption, author)
-    - webpack.config.js ('merchantLocationWidget' 2 places to you visual name)
-    - src/program.js ('merchantLocationWidget' to you visual name)
-    - publish/visual/quadrant-properties.js ('merchantLocationWidget' to you visual name)
+    - webpack.config.js ('myCustomVisual' 2 places to you visual name)
+    - src/program.js ('myCustomVisual' to you visual name)
+    - publish/visual/quadrant-properties.js ('myCustomVisual' to you visual name)
     - publish/config.js (install.visualConfig)
     - publish/config.js (install.authcookie **GIANT WEB ACCESS COOKIE**)
-    - publish/config.js (install.giantUrl **GIANT URL WHICH YOU GET GIANT WEB ACCESS COOKIE**)
+    - publish/config.js (install.giantUrl **RELATIVE TO ACCESS COOKIE**)
 
 ### How to obtain GIANT web access cookie
 

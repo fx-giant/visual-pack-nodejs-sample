@@ -26,7 +26,7 @@ export default {
 
     const d3Root = d3.select(content)
         .append("div")
-        .attr("class", "merchant-location-widget")
+        .attr("class", "my-custom-visual")
         .style("height", "100%")
         .style("width", "100%");
 
