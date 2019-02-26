@@ -13,7 +13,9 @@
  3. Update the below files to your repective values
 
     - package.json (name, desciption, author)
-    - webpack.config.js ('myCustomVisual' 2 places)
+    - webpack.config.js ('myCustomVisual' 2 places to you visual name)
+    - src/program.js ('myCustomVisual' to you visual name)
+    - publish/visual/quadrant-properties.js ('myCustomVisual' to you visual name)
     - publish/config.js (install.visualConfig)
     - publish/config.js (install.authcookie **GIANT WEB ACCESS COOKIE**)
     - publish/config.js (install.giantUrl **RELATIVE TO ACCESS COOKIE**)
@@ -31,7 +33,7 @@ After logging into GIANT, open web debugger console (press **F12**) and switch t
 | publish/visual/quadrant-properties.js | javascript for properties HTML, parse by giant during configuration stage
 | src/app.js | main rendering of custom visual |
 | src/app.scss | main styling of custom visual |
-| program.js | Development only files. Dump any debugging configuration here for testing purpose |
+| src/program.js | Development only files. Dump any debugging configuration here for testing purpose |
 
 See [Visual pack documentation](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual-pack.md#quadrant-properties-html-js) for more information about quadrant properties HTML and javascript.
 
@@ -39,6 +41,9 @@ See [Visual pack documentation](https://github.com/fx-giant/giant-documentations
 
 ## How to Run
 ```
+--Installing dependency packages
+npm install
+
 --Debug visual application (browser will launch localhost:8080)
 npm run debug 
 

@@ -46,14 +46,14 @@ module.exports = {
     versionfile: path.resolve(__dirname, "../publish/version.txt"),
     output: path.resolve(__dirname, '../dist/visual.zip'),
     visualConfig: {
-      "groupId": "eng.8excite",
-      "packageId": "eng.8excite.merchantLocationWidget",
-      "visualName": "merchantLocationWidget",
-      "displayName": "Merchant Location Widget",    
+      "groupId": "giantSupport",
+      "packageId": "giantSupport.visual.myCustomVisual",
+      "visualName": "myCustomVisual",
+      "displayName": "My Custom Visual",    
     },
     quadrantPropertiesHtml: path.resolve(__dirname, "../publish/visual/quadrant-properties.html"),
     quadrantPropertiesJs: path.resolve(__dirname, "../publish/visual/quadrant-properties.js"),
     authcookie: "",
-    giantUrl: "https://giant2016-csgb.fusionexsite.com/AnalyticsI"
+    giantUrl: "https://cloud-asia.fusionexgiant.com/Analytics"
   }
 };

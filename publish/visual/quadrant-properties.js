@@ -1,4 +1,4 @@
-namespace("fx.quadrantProperties")["merchantLocationWidget"] = (function (ko, _, leesa, fx, fxDataContext, fxUtil, fxEnum, Quill) {
+namespace("fx.quadrantProperties")["myCustomVisual"] = (function (ko, _, leesa, fx, fxDataContext, fxUtil, fxEnum, Quill) {
 
   const observable = ko.observable;
   const computed = ko.computed;
