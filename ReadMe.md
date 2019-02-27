@@ -7,6 +7,10 @@
  - Has access to a version of giant
  - Know what is nodeJs and have [a version installed](https://nodejs.org/en/)
 
+> If you are working in bison environment please ensure the relevant package is retrieve from your administrator
+
+
+
  ## Setup
  1. Git clone this environment
  2. Delete the .git (and setup your own git repo)
@@ -17,8 +21,8 @@
     - src/program.js ('myCustomVisual' to you visual name)
     - publish/visual/quadrant-properties.js ('myCustomVisual' to you visual name)
     - publish/config.js (install.visualConfig)
-    - publish/config.js (install.authcookie **GIANT WEB ACCESS COOKIE**)
-    - publish/config.js (install.giantUrl **RELATIVE TO ACCESS COOKIE**)
+    - publish/config.js (install.authcookie, giant web access cookie)
+    - publish/config.js (install.giantUrl)
 
 ### How to obtain GIANT web access cookie
 
