@@ -26,7 +26,8 @@
 
 ### How to obtain GIANT web access cookie
 
-After logging into GIANT, open web debugger console (press **F12**) and switch to **Network** tab. Select one of the network action at the right panel, look for **Request Headers** of that network action and copy the **Cookie** value.
+After logging into GIANT, open web debugger console (press **F12**) and switch to **Network** tab. Select one of the network action at the right panel, look for **Request Headers** of that network action and copy the **Cookie** value. Example of cookie value is shown below: 
+![Cookie](images/cookie.PNG)
 
 ## Development Files
 
