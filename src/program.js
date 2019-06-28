@@ -3,6 +3,7 @@ window["myCustomVisual"].default.render({
   htmlJContent() {
 
     return {
+      html() { },
       0: document.getElementById("app")
     }
 
@@ -13,12 +14,12 @@ window["myCustomVisual"].default.render({
         titlePath: "RedeemLocation.LocationName",
         descriptionPath: "RedeemLocation.Address",
         googleMapUrlPath: "RedeemLocation.GoogleMapUrl",
-        googleMapButtonText : "Direction"
+        googleMapButtonText: "Direction"
       }
     }
   },
   data() {
-    return  [
+    return [
       {
         "RedeemLocation.LocationName": "Hui Lau Shan @ Aman Central Mall",
         "RedeemLocation.GoogleMapUrl": "https://www.google.com/maps/dir//6.124354,100.366791/@4.6149487,99.8763982,8z",

@@ -5,7 +5,7 @@ import "./app.scss";
 function getProperties(quadrant) {
 
   const runtimeConfiguration = {
-    content: quadrant.htmlJContent()[0],
+    jContent: quadrant.htmlJContent(),
     data: quadrant.data(),
     parameters: quadrant.visual().parameters
   };
@@ -18,7 +18,11 @@ export default {
   },
   render(quadrant, callback) {
 
-    const {content, data, parameters} = getProperties(quadrant);
+    const {jContent, data, parameters} = getProperties(quadrant);
+
+    jContent.html("");
+    
+    const content = jContent[0];
 
     //**** SAMPLE IMPLEMENTATION OF A SIMPLE TABLE */
     const {titlePath, descriptionPath, googleMapUrlPath} = parameters;
