@@ -7,7 +7,7 @@
  - Has access to a version of giant
  - Know what is nodeJs and have [a version installed](https://nodejs.org/en/)
 
-> If you are working in bison environment, copy this link http://nexus.gfx.com:8801/repository/storage/visual-pack/visual-pack-nodejs-sample.zip in your bison environment to download the package. *This download link only valid within bison environment.*
+> If you are working in bison environment, copy this link http://nexus.gfx.com:8801/repository/storage/visual-pack/visual-pack-nodejs-sample.zip in your bison environment to download the package. *This download link only valid within internal environment.*
 
 
 
